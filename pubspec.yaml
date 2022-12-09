@@ -20,7 +20,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.18.5 <3.0.0'
+  sdk: '>=2.17.3 <3.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -31,9 +31,11 @@ environment:
 dependencies:
   animated_icon_button: ^1.0.2
   cupertino_icons: ^1.0.2
+  fluro: ^2.0.4
   flutter:
     sdk: flutter
   flutter_speed_dial: ^6.2.0
+  scribble: ^0.9.1
 
 dev_dependencies:
   flutter_launcher_icons_maker: ^0.10.2
